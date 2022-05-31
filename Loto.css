@@ -1,0 +1,151 @@
+/*definition du style de la page*/
+body {
+    background-color: white;
+
+    margin: 0;}
+
+/*Pour enlever les fleches de saisie dans les cases du joueur : https://www.w3schools.com/howto/howto_css_hide_arrow_number.asp*/
+
+
+.bannertitle {
+
+    padding: 2px;
+    height: 5%;
+    width: 100%;
+    text-align: center;
+    background-color: #00a2d9;
+
+
+}
+
+.tirages {
+    display: inline-block;
+    flex-direction: row;
+    vertical-align: top;
+    padding: 10;
+}
+
+.tiragesjoueur {
+    display: inline-block;
+    flex-direction: row;
+    vertical-align: top;
+    padding: 10;
+}
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+#loto {
+
+    width: 100%;
+    font-family: 'Metropolis', sans-serif;
+    text-align: center;
+
+}
+
+h1 {
+    font-family: 'Metropolis-ExtraBold', sans-serif;
+    font-weight: bold;
+    font-size: xx-large;
+    color: white;
+    text-align: center;
+
+
+}
+
+
+.boules {
+    background-color: white;
+    border-radius: 50%;
+    border-width: 5px;
+    border-color: #00a2d9;
+    padding: 0.2em;
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 3px;
+    margin-right: 3px;
+    font-family: 'Metropolis-ExtraBold', sans-serif;
+    font-weight: 900;
+    font-size: 22px;
+    text-align: center;
+
+
+
+}
+.comp{
+    
+    background-color: white;
+    border-radius: 50%;
+    border-width: 5px;
+    border-color: #ea3946;
+    padding: 0.2em;
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 3px;
+    margin-right: 3px;
+    font-family: 'Metropolis-ExtraBold', sans-serif;
+    font-weight: 900;
+    font-size: 22px;
+    text-align: center;
+
+
+}
+
+#TirageCache {
+
+    font-family: 'Metropolis-Bold', sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+    border-radius: 1.8rem;
+    border: 0.2rem solid #ea3946;
+    min-width: 9.8rem;
+    padding: 0.5rem;
+    text-align: center;
+    color: white;
+    margin: 0 0.8rem 0.8rem 0;
+    background: #ea3946;
+    margin: 0.8rem;
+
+
+}
+
+input[type=button] {
+    font-family: 'Metropolis-Bold', sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+    border-radius: 1.8rem;
+    border: 0.2rem solid #00a2d9;
+    min-width: 9.8rem;
+    padding: 0.5rem;
+    text-align: center;
+    color: white;
+    margin: 0 0.8rem 0.8rem 0;
+    background: #00a2d9;
+    margin: 0.8rem;
+
+
+
+}
+
+erreur {
+    color: red;
+
+}
+gold{
+    color: gold;
+}
+rouge{
+    color: #ea3946;
+}
